@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manisha Khadul</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">Manisha Khadul</div>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <div class="menu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Welcome to <span>Manisha's Portfolio</span></h1>
+            <p>Hi, I'm a passionate web developer. Explore my work and learn more about my skills!</p>
+            <a href="#projects" class="btn">View Projects</a>
+        </div>
+        <div class="hero-image">
+            <img src="your-image.jpg" alt="Hero Image">
+        </div>
+    </section>
+   
+  <section class="skills" id="skills">
+    <div class="container">
+        <h2>My Skills</h2>
+        <div class="skills-list">
+            <div class="skill-item">
+                <i class="fab fa-html5"></i>
+                <h3>HTML</h3>
+                <p>Expert in building semantic and accessible web structures.</p>
+            </div>
+            <div class="skill-item">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS</h3>
+                <p>Proficient in styling websites using modern CSS techniques like Flexbox and Grid.</p>
+            </div>
+            <div class="skill-item">
+                <i class="fab fa-js-square"></i>
+                <h3>JavaScript</h3>
+                <p>Skilled in JavaScript for building dynamic and interactive web applications.</p>
+            </div>
+            <div class="skill-item">
+                <i class="fab fa-react"></i>
+                <h3>React</h3>
+                <p>Experienced with React.js to build fast and scalable frontend applications.</p>
+            </div>
+            <div class="skill-item">
+                <i class="fab fa-node-js"></i>
+                <h3>Node.js</h3>
+                <p>Familiar with building backend services and APIs using Node.js and Express.</p>
+            </div>
+            <div class="skill-item">
+                <i class="fas fa-database"></i>
+                <h3>Database Management</h3>
+                <p>Experienced with both SQL and NoSQL databases like MySQL, PostgreSQL, and MongoDB.</p>
+            </div>
+        </div>
+    </div>
+</section>
+  <!-- Projects Section -->
+<section class="projects" id="projects">
+  <div class="container">
+      <h2>My Projects</h2>
+      <div class="projects-list">
+          <div class="project-item">
+              <img src="project1.jpg" alt="Project 1">
+              <h3>Collage Management System</h3>
+              <p>A brief description of Project 1. It highlights the key features and the technology stack used.</p>
+              <a href="#" class="btn">View Project</a>
+          </div>
+          <div class="project-item">
+              <img src="project2.jpg" alt="Project 2">
+              <h3>School Bus Tracker</h3>
+              <p>A brief description of Project 2. A small explanation of what the project is about.</p>
+              <a href="#" class="btn">View Project</a>
+          </div>
+          <div class="project-item">
+              <img src="project3.jpg" alt="Project 3">
+              <h3>Video Conferencing Web App</h3>
+              <p>A brief description of Project 3. The technologies and tools used to build it.</p>
+              <a href="#" class="btn">View Project</a>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- <section class="testimonials">
+  <div class="container">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonial-slider">
+      Testimonial cards here -->
+      <!-- <div class="testimonial-card">
+        <p>"This is the best service I have ever used! Highly recommended."</p>
+        <div class="author">
+          <img src="path/to/author-image.jpg" alt="Author">
+          <div>
+            <div class="name">John Doe</div>
+            <div class="position">CEO, Example Company</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <p>"An amazing experience, they helped us achieve our goals efficiently."</p>
+        <div class="author">
+          <img src="path/to/author-image2.jpg" alt="Author">
+          <div>
+            <div class="name">Jane Smith</div>
+            <div class="position">Marketing Manager, Another Company</div>
+          </div>
+        </div>
+      </div>
+      Add more testimonial cards as needed -->
+    <!-- </div>    
+  </div>
+</section> --> 
+<section id="contact" class="contact-section">
+  <div class="container">
+    <div class="contact-header">
+      <h2>Contact Me</h2>
+      <p>If you have any questions or want to get in touch, feel free to contact me using the form below.</p>
+    </div>
+    
+    <div class="contact-form">
+      <form>
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" placeholder="Enter your name">
+        </div>
+        
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input type="email" id="email" placeholder="Enter your email">
+        </div>
+        
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" placeholder="Your message"></textarea>
+        </div>
+        
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-text">
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+      </div>
+      <div class="footer-social">
+        <a href="https://www.linkedin.com" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+        <a href="https://twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+<!-- Include FontAwesome for icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+    <script src="js/script.js"></script>
+</body>
+</html>
